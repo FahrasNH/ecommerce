@@ -2,6 +2,8 @@ const config = {
   mode: "production",
   entry : {
     app: ['./resource/assets/js/app.js'],
+    costum: ['./resource/assets/js/costum.js'],
+    conter: ['./resource/assets/js/counter.js'],
   },
   output: {
     path: `${__dirname}/public/assets/js/`,

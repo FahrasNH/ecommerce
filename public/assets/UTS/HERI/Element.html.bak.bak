@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Membuat Biodata Sederhana</title>
+</head>
+<body>
+<form action="#" style="width: 700px"class="posisi";>
+<fieldset class="h"/>
+<table style="width: 600px;">
+<body style="background-color:pink"> </body>
+
+<tr>
+<td rowspan="10" width="100px">
+<img src="heri.png" width="150px" height="200px" border="5">
+</td>
+</tr>
+<center>
+<font size="25px">
+<b>BIODATA</b>
+</font>
+</center>
+<tr>
+<td><b>NAMA</b></td>
+<td>:   Heri Kurniawan</td>
+</tr>
+<tr>
+<td><b>NIM</b></td>
+<td>:   41518110008</td>
+</tr>
+<tr>
+<td><b>TTL</b></td>
+<td>:   Jakarta, 27 Februari 1996</td>
+</tr>
+<tr>
+<td><b>ALAMAT</b></td>
+<td>:   Jl. Menteng Rawa Jakarta</td>
+</tr>
+<tr>
+<td><b>JENIS KELAMIN</b></td>
+<td>:   Laki - Laki</td>
+</tr>
+<tr>
+<td><b>AGAMA</b></td>
+<td>:   Islam</td>
+</tr>
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html>

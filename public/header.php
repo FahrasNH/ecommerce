@@ -52,11 +52,11 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav mu-menu navbar-right">
                 <li><a href="./index.php">HOME</a></li>
-                <li><a href="#mu-counter">PRODUCT</a></li>
+                <li><a href="./product.php">PRODUCT</a></li>
                 <li><a href="#mu-author">CONTACT</a></li>
-                  <li><a href="./review.php">REVIEW</a></li>
-                  <li><a href="./blog.php">BLOG</a></li>
-                  <li><a href="./aboutus.php">ABOUT AUTHOR</a></li>
+                <li><a href="./review.php">REVIEW</a></li>
+                <li><a href="./blog.php">BLOG</a></li>
+                <li><a href="./aboutus.php">ABOUT AUTHOR</a></li>
               </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

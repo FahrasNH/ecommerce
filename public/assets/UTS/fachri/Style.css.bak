@@ -1,0 +1,42 @@
+body
+	{	margin: 0;
+		padding: 0;
+		background-image: url('HITAM.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		font-family: Arial, Helvetica,sans-serif;
+	}
+h1,h2,h3
+	{font-family: Arial, Helvetica,sans-serif;
+	color: White;
+	font-size: 30px;
+	text-align: left
+	}
+p 
+	{ font-family: Arial, Helvetica,sans-serif;
+	color: White;
+	font-size: 15px;
+	text-align: left
+	}
+table {
+  border-collapse: collapse;
+  width: 50% 60%;
+  color: white;
+  text-align: center
+}
+
+th, td {
+  padding: 8px solid white;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color:white;
+}
+img {
+	border-style: double;
+	border-color: white;
+	}
+ul  {font-family: Arial, Helvetica,sans-serif;
+	color: White;
+	text-align: left
+	}

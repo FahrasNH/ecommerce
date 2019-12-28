@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>AdityaT biography</title>
+	</head>
+<style>
+body {
+	border: 2px solid black;
+	padding: 50px;
+	background: url(volcom.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: blue;
+	text-align: left
+	<h1>background-size: cover(default):</h1>
+}
+</style>
+    <body>
+        <h1></h1>
+        <p>Halo, nama saya <strong>Aditya Teguh Laksono</strong></p>
+        <img src="IMG_20190806_172539_410.jpg" width="170" height="200" border="2" alt="">
+
+        <hr>
+        
+        <h2>Tentang Saya</h2>
+        
+		<fieldset>
+		<legend><strong>Personal informasi</strong></legend>
+		<table>
+			<tr>     
+				<td>Tempat, Tgl. Lahir</td>
+				<td>: Jakarta,6 Maret 1994</td>
+			</tr>
+			<tr>
+                <td>Jenis kelamin</td>
+				<td>: Laki-laki</td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td>: Islam</td>
+			</tr>
+			<tr>
+				<td>Kebangsaan</td>
+				<td>: Indonesia</td>
+			</tr>
+			<tr>
+				<td>Status</td>
+				<td>: Belum Kawin</td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>: Jl.Cempaka warna No.37 Jakarta Pusat 10510</td>
+			</tr>
+			<tr>
+				<td>Hobi</td>
+				<td>: Hiking, Traveling</td>
+            </tr>
+		</table>
+		</fieldset>
+		
+		<hr>
+
+<h3></h3>
+		<fieldset>
+		<legend><strong>Kontak</strong></legend></p>
+		<table>
+			<tr>
+                <td>Telepon</td>
+				<td>: 0812-9795-8250</td>
+			</tr>
+			<tr>
+                <td>Email</td>
+				<td>: adityateguhlaksono@gmail.com</td>
+			</tr>
+			<tr>
+				<td>Instagram</td>
+				<td>: @adityatl_</td>
+            </tr>
+		</table>
+        </fieldset>
+        
+		<hr>
+
+<h4></h4>        
+		<fieldset>
+		<legend><strong>Pendidikan</strong></legend>
+        <ul>
+            <li>1999-2005	: SDS Islam Rawasari Jakarta</li>
+			<li>2005-2008	: SMP N 47 Jakarta</li>
+			<li>2008-2011	: SMK N 53 Jakarta</li>
+			<li>2016-Lulus	: Universitas Mercu Buana</li>
+        </ul>
+        </fieldset>
+        
+		<hr>
+        
+<h5></h5>
+		<fieldset>
+        <legend><strong>Pengalaman</strong></legend>
+        <ul>
+            <li>PT.Etobee Teknologi Indonesia</li>
+			<li>PT.Indomarco Prismatama (Indomaret Group)</li>
+			<li>PT.Administrasi Medika (AdMedika)</li>
+        </ul>
+        </fieldset>
+        
+        <hr>
+        
+        <p>&copy; 2019 &mdash; Aditya Teguh Laksono </p>
+        
+    </body>
+    
+</html>
+
+
+
+
+
+
+

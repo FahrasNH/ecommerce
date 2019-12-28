@@ -1,0 +1,107 @@
+<!DOCTYPE html dir="rtl">
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva|Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  </head>
+  <body>
+    <nav>
+      <div class="brand-web">
+        <img src="./image/Vector.svg" class="huruf-f"/>
+        <img src="./image/Group.svg" class="fish animated infinite slideInRight slow-2s"/>
+        <img src="./image/Group1.svg" class="pop-1 animated infinite zoomIn slow-2s"/>
+        <img src="./image/Group2.svg" class="pop-2 animated infinite zoomIn slow-5s"/>
+        <h1>ahras Web's</h1>
+      </div>
+    </nav>
+    <section class="section1">
+      <img class="background" src="./image/Subtract.svg"/>
+      <form action="" autocomplete="off">
+        <input class="inp-name" type="text" name="firstname" placeholder="Masukkan Namamu ...">
+        <input class="submit-name" type="submit" value="Submit">
+        <p class="validation-name"></p>
+      </form>
+      <h1 class="your-name"></h1>
+      <a href="#section2">
+        <img class="arr-button animated infinite bounce slow-2s" src="./image/chevron-sign-down.svg"/>
+      </a>
+    </section>
+    <section class="section2" id="section2">
+      <div class="container">
+        <div class="mydata">
+          <h1>Fahras Nur Hidayat</h1>
+          <h2>Software Engineer & Associate UI/UX</h2>
+          <p><img src="./image/envelope.svg"></img>fahras.fnh@gmail.com</p>
+          <p><img src="./image/college-graduation.svg">Mercubuana University</p>
+          <p><img src="./image/agenda.svg">0895-0734-3457</p>
+          <p><img src="./image/placeholder.svg">Jl. BB I Cip. Muara III RT 006/015 Jatinegara, Jakrta Timur 13420</p>
+        </div>
+        <div class="mypic">
+          <img src="./image/pic.jpeg"/>
+        </div>
+        <marquee class="text-running" direction="" onmouseover="this.stop();" onmouseout="this.start();">
+          <div class="holder">
+            <div class="text-container">
+             <h1>بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</h1>
+            </div>
+          </div>
+        </marquee>
+      </div>
+      <a href="#section3">
+        <img class="arr-button animated infinite bounce slow-2s" src="./image/chevron-sign-down.svg"/>
+      </a>
+    </section>
+    <section class="section3" id="section3">
+      <div class="container">
+        <div class="myQoute">
+          <div class="item-1">
+            <q>Stay noob but keep Growing</q>
+          </div>
+          <div class="item-2">
+            <q>Hidup kita bukan hanya mencari sensasi, tapi juga harus menjadi Inspirasi agar orang dapat Termotivasi</q>
+          </div>
+          <div class="item-3">
+            <q>Hidup bukan sebuah permainan, jadi teruslah menatap masa depan</q>
+          </div>
+        </div>
+        <div class="sayHi">
+          <p class="myAward">
+            Hi! I'm Fahras, winner of the UI Developer award based in Indonesia
+          </p>
+          <ul>
+            <li>
+              <a href="https://id.linkedin.com/in/fahras-nur-hidayat-176585179" target="_blank">
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Fahras1998" target="_blank">
+                Facebook
+              </a>
+            </li>
+             <li>
+              <a href="https://twitter.com/fahras_nh" target="_blank">
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a id="myBtn">
+                Say Hi!
+              </a>
+            </li>
+          </ul>
+          <div id="myModal" class="modal">
+            <div class="modal-content animated infinite pulse slower-3s">
+              <span class="close">&times;</span>
+              <p class="isi-content"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

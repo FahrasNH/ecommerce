@@ -1,0 +1,57 @@
+<html>
+  <head>
+      <title>Heri Kurniawan</title>
+	  <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+	</head>
+<body>
+	<table>
+		<tbody>
+
+			<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>City</th>
+			<th>Gender</th>
+			</tr>
+			</thead>
+			<tr>
+			<th>Heri</th>
+			<th>23</th>
+			<th>Jakarta</th>
+			<th>Laki-Laki</th>
+			</tr>
+			<tr>
+			<th>Joko</th>
+			<th>25</th>
+			<th>Cirebon</th>
+			<th>Laki-Laki</th>
+			</tr>
+			<tr>
+			<th>Riska</th>
+			<th>20</th>
+			<th>Jakarta</th>
+			<th>Perempuan</th>
+			</tr>
+
+</tbody>
+</table>
+</body>
+</html>
+
+

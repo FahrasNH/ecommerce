@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+nav {
+  padding: 20px 50px;
+}
+
+nav .pop-1 {
+  top: 25px;
+  left: 65px;
+  width: 35px;
+  position: absolute;
+}
+
+nav .pop-2 {
+  top: 50px;
+  left: 55px;
+  width: 35px;
+  position: absolute;
+}
+
+nav .huruf-f {
+  width: 50px;
+  z-index: 1;
+}
+
+nav .fish {
+  top: 30px;
+  left: 60px;
+  z-index: 1;
+  width: 50px;
+  position: absolute;
+}
+
+nav h1 {
+  top: 60px;
+  left: 70px;
+  z-index: 1;
+  color: #3B97D3;
+  font-size: 1.5em;
+  position: absolute;
+  font-family: 'Righteous', cursive;
+}
+
+.section1, .section2 {
+  height: 100vh;
+}
+
+.section1 .background {
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  opacity: .4;
+  position: absolute;
+}
+
+.section1 .arr-button {
+  top: 85%;
+  left: 50%;
+  width: 40px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.section1 form {
+  top: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.section1 form .inp-name {
+  width: 31%;
+  height: 42px;
+  padding: 5px 20px;
+  font-style: italic;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(59, 151, 211, 0);
+}
+
+.section1 form .submit-name {
+  height: 42px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: rgb(59, 151, 211);
+  border: 1px solid rgba(59, 151, 211, 0);
+}
+
+.section1 h1 {
+  top: 150px;
+  font-size: 2em;
+  color: #3B97D3;
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Righteous', cursive;  
+}
+
+.section1 .validation-name {
+  width: 40%;
+  font-size: .8em;
+  text-align: left;
+  margin: 10px auto;
+  position: relative;
+  color: rgb(255, 111, 111);
+  font-family: 'Righteous', cursive;
+}
+
+.section2 .container {
+  top: 60px;
+  width: 80%;
+  height: 410px;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 20px 45px rgba(45, 141, 206, .3);
+  background-image: linear-gradient(to bottom right, rgb(160, 207, 238) , rgb(45, 141, 206));
+}
+
+.section2 .container marquee {
+  right: 0;
+  top: 340px;
+  width: 71%;
+  position: absolute;
+  font-family: 'Palanquin', sans-serif;
+}
+
+.section2 .arr-button {
+  left: 50%;
+  width: 40px;
+  bottom: -10em;
+  cursor: pointer;
+  position: relative;
+}
+
+.mydata {
+  width: 50%;
+  float: right;
+  line-height: 2em;
+  padding: 70px 10px;
+  font-family: 'Palanquin', sans-serif;
+}
+
+.mydata h1 {
+  font-size: 1.5em;
+}
+
+.mydata h2 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.mydata p {
+  font-size: .9em;
+}
+
+.mydata p img {
+  top: 5px;
+  width: 20px;
+  position: relative;
+  margin: 0 15px 0 0;
+}
+
+.mypic img {
+  width: 400px;
+  height: 410px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+	clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 0% 100%);
+}
+
+.section3, .container {
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, rgb(160, 207, 238) , rgb(45, 141, 206));
+}
+
+.section3 .container .myQoute {
+  position: relative;
+}
+
+.sayHi {
+  top: 50%;
+  left: 60%;
+  position: relative;
+}
+
+.sayHi .myAward {
+  top: -3em;
+  width: 30%;
+  font-size: 1.9em;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.sayHi a {
+  top: -2em;
+  font-size: 1.2em;
+  position: relative;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.sayHi ul {
+  padding-inline-start: 0;
+}
+
+.sayHi ul li {
+  transition: 0.5s;
+	display: inline-block;
+}
+
+.sayHi ul li a {
+  transition: 1s;
+	position: relative;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.sayHi ul:hover li a {
+  opacity: .2;
+	filter: blur(2px);
+  transform: scale(1);
+}
+
+.sayHi ul li a:hover {
+  opacity: 1;
+	filter: blur(0);
+	transform: scale(1);
+}
+
+.sayHi ul li a::before {
+  left: 0;
+	top: 100%;
+	width: 0px;
+	content: '';
+	height: 5px;
+  transition: 0.5s;
+  border-radius: 2px;
+	position: absolute;
+	background-color: rgba(255, 255, 255, .7);
+}
+
+.sayHi ul li:hover a::before {
+	width: 50%;
+	transform: translateX(75%);
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+  top: 7em;
+  width: 40%;
+  display: block;
+  font-size: 2em;
+  font-style: italic;
+  position: absolute;
+  line-height: 1.4em;
+  animation-duration: 20s;
+  color: rgb(255, 255, 255);
+	animation-iteration-count: infinite;
+  font-family: 'Cabin Sketch', cursive;
+	animation-timing-function: ease-in-out;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 10%; opacity: 1; }
+  33.33%, 100% { left: 20%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 10%; opacity: 1; }
+  66.66%, 100% { left: 20%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 10%; opacity: 1; }
+  100% { left: 20%; opacity: 0; }
+}
+
+#myBtn {
+  cursor: pointer;
+}
+
+.modal {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: none;
+  overflow: auto;
+  position: fixed;
+  padding-top: 100px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, rgb(160, 207, 238) , rgb(45, 141, 206));
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.isi-content {
+  width: 80%;
+  display: block;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.4em;
+  text-align: justify;
+  margin: 20px auto 10px;
+  color: rgb(255, 255, 255);
+  font-family: 'Cabin Sketch', cursive;
+}
